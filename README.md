@@ -7,7 +7,7 @@ This program processes a large CSV file with 6.4 million data records at regular
 ```
 git clone https://github.com/772/batch-driven-data-architecture
 ```
-Download the dataset (https://www.kaggle.com/datasets/andrewmvd/steam-reviews) and unzip the CSV file to the folder *0_place_dataset_csv_here*.
+Download the dataset (https://www.kaggle.com/datasets/andrewmvd/steam-reviews) and unzip the CSV file to the folder *0_place_dataset_csv_here*. Overwrite the small example dataset.csv.
 ```
 cd batch-driven-data-architecture
 ./run_microservices.sh
