@@ -12,3 +12,9 @@ Download the dataset (https://www.kaggle.com/datasets/andrewmvd/steam-reviews) a
 cd batch-driven-data-architecture
 ./run_microservices.sh
 ```
+
+## Cronjob running the script every third month
+
+```
+0 0 1 */3 * /path/to/run_microservices.sh
+```
