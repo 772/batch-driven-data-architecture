@@ -10,6 +10,7 @@ git clone https://github.com/772/batch-driven-data-architecture
 Download the dataset (https://www.kaggle.com/datasets/andrewmvd/steam-reviews) and unzip the CSV file to the folder *0_place_dataset_csv_here*. Overwrite the small example dataset.csv.
 ```
 cd batch-driven-data-architecture
+chmod +x run_microservices.sh
 ./run_microservices.sh
 ```
 
